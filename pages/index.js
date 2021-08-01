@@ -33,7 +33,7 @@ export default function Home() {
           <span className="c-top"> SPARC is the best in-home <span className="bold">care for seniors & disabled adults</span></span>
           SPARC offers quality for the elderly and people of all ages,
           to give you the peace of mind you need.<br></br>
-          <button> Make Appointment</button>
+          <button><a href="https://wa.me/917319793671" target="_blank"> Make Appointment </a></button>
         </div>
         
         </div>
@@ -192,7 +192,7 @@ export default function Home() {
            </div>
            <div className="footer-bottom">
         <p> © 2021: SPARC</p>
-        <p>Developed by Soft Cell</p>
+        <p>Developed by <a href="https://www.facebook.com/softcelldbg" target="_blank"> Soft Cell </a></p>
         </div>  
         </footer>
     </div>
