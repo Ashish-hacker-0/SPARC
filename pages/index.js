@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import {FcDocument} from 'react-icons/fc';
+import Head from 'next/head';
 import {FaBriefcaseMedical} from 'react-icons/fa';
 import {GiMedicinePills} from 'react-icons/gi';
 import Image from 'next/image';
@@ -15,6 +16,10 @@ import doctor from '../public/doctor.png';
 export default function Home() {
   return (
     <div className={styles.home}>
+    <Head>
+        <title>SPARC</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
         <nav>
           <p className="logo">STEP PHYSIOTHERAPY AND REHAB CENTRE (SPARC)</p>
           <ul>
