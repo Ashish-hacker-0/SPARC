@@ -258,7 +258,13 @@ footer{
 .flex .contact{
   width: 40%;
 }
-
+.footer-bottom{
+  background-color: #04021D;
+  padding: 6px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width: 600px) {
   .logo{
     font-size: 12px;

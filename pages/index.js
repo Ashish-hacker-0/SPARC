@@ -181,7 +181,7 @@ export default function Home() {
                   <ul>
                     <li>Mon-Sat : 3:00 PM - 8:00 PM</li>
 
-<li>Sunday : 9:00AM to 12:30PM</li>                  </ul>
+               <li>Sunday : 9:00AM to 12:30PM</li>                  </ul>
              </div>
              <div className="contact">
               <p>Contact Us</p>
@@ -190,6 +190,10 @@ export default function Home() {
               <p>We are available 24 hours 7 days a week</p>
              </div>
            </div>
+           <div className="footer-bottom">
+        <p> © 2021: SPARC</p>
+        <p>Developed by Soft Cell</p>
+        </div>  
         </footer>
     </div>
   )
