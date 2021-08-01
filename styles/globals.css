@@ -4,13 +4,507 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    overflow-x: hidden;
 }
-
+*{
+  padding: 0;
+  margin: 0;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
+.logo{
+  font-size: 30px;
+  font-weight: 700;
+  width: 40%;
+}
+.carsouel{
+  height: 70vh;
+  background-image: url(../public/back.jpg);
+  background-size: cover;
+}
+.carsouel .black{
+  background-color: rgba(0, 0, 0, 0.664);
+  height: 70vh;
+}
+.carsouel div div{
+  background-color: none;
+  padding: 40px;
+  color: white;
+  width: 50%;
+}
+.carsouel div button{
+  background-color: #E99300;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 30px;
+  margin: 20px 0;
+  color: white;
+}
+.c-top{
+  display: block;
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: 600;
+  width: 40vw;
+}
+.bold{
+  font-weight: 700;
+}
+.logo::first-letter{
+  color: #1F7B76;
+}
+.service, .provide{
+  color: gray;
+  text-align: center;
+  padding: 70px 40px; 
+}
+.service p:nth-child(1),.provide p:nth-child(1){
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+}
+.service-detail{
+  font-size: 18px;
+  padding: 20px 0;
+}
+.service-card, .provide-card{
+  display: flex;
+}
+.service-card,.provide-card {
+  color: #1F7B76;
+  font-size: 70px;
+  padding: 30px 0;
+}
+.service-card div p:nth-child(2), .provide-card div p:nth-child(2){
+  font-size: 25px;
+  font-weight: 550;
+  color: black;
+}
+.service-card div p:nth-child(3), .provide-card div p:nth-child(3){
+  font-size: 16px;
+  color: gray;
+}
+.provide{
+  background-color: #F9FAF4;
 
-* {
-  box-sizing: border-box;
+}
+/* .provide-card div{
+  padding: 0 10px;
+} */
+.about{
+  display: flex;
+  text-align: center;
+}
+.about div {
+  padding: 80px;
+  color: gray;
+  font-size: 15px;
+}
+.about div:nth-child(1){
+  border-right: 1px solid lightgray;
+  
+}
+.about div p:nth-child(1){
+   font-size: 22px;
+   font-weight: 600;
+   color: black;
+   padding: 15px;
+}
+.choose{
+  background-color: #F9FAF4;
+  text-align: center;
+  color: gray;
+  padding: 80px 0px;
+}
+.choose p:nth-child(1){
+  font-size: 30px;
+  font-weight: 550;
+  color: black;
+  
+}
+.choose .choose-card{
+    display: flex;
+    padding: 40px;
+    text-align: left;
+}
+.choose-card div{
+  padding: 20px;
+  color: #1F7B76;
+  font-size: 60px;
+}
+.choose-card div p:nth-child(2){
+  font-size: 26px;
+  font-weight: 500;
+  color: black;
+}
+.choose-card div p:nth-child(3){
+  font-size: 16px;
+  color: gray;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 50px;
+  color: gray;
+}
+.doctor{
+  display: flex;
+}
+.doctor .Image{
+   width: 40vw;
+}
+.about-doctor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-left: 1px dotted #1F7B76;
+  width: 50vw;
+}
+.about-doctor .circle{
+  width: 2.5vw;
+  z-index: 100;
+  position: sticky;
+  background-color: #1F7B76;
+  border-radius: 40px;
+  top:-30px;
+  height: 2.5vw;
+  left: -25vw;
+  position: relative;
+}
+.about-doctor p:nth-child(1){
+   font-size: 30px;
+   color: #1F7B76;
+font-weight: 550;
+}
+.about-doctor p:nth-child(2),.about-doctor p:nth-child(3){
+  font-size: 30px;
+
+}
+.image-gallery{
+  background-color: #F9FAF4;
+  
+}
+.image-gallery .images{
+  border: 5px solid #1F7B76;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.image-gallery .title{
+  font-size: 30px;
+  font-weight: 550;
+  color: #1F7B76;
+  background-color: #F9FAF4;
+  width: fit-content;
+  position: relative;
+  z-index: 100;
+  top: 10px;
+  margin-left: 20px;
+
+}
+.image-gallery .images .image{
+  width: 30vw;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #1F7B76;
+  margin:14px;
+
+}
+.image-gallery .images .image:nth-child(1){
+  background-image: url('../public/image1.jpeg');
+}
+.image-gallery .images .image:nth-child(2){
+  background-image: url('../public/image2.jpeg');
+  background-position: center;
+}
+.image-gallery .images .image:nth-child(3){
+  background-image: url('../public/image3.jpeg');
+}
+.image-gallery .images .image:nth-child(4){
+  background-image: url('../public/image4.jpeg');
+}
+.image-gallery .images .image:nth-child(5){
+  background-image: url('../public/image5.jpeg');
+}
+.image-gallery .images .image:nth-child(6){
+  background-image: url('../public/image6.jpeg');
+}
+.image-gallery .images .image:nth-child(7){
+  background-image: url('../public/image7.jpeg');
+}
+.image-gallery .images .image:nth-child(8){
+  background-image: url('../public/image8.jpeg');
+}
+.image-gallery .images .image:nth-child(9){
+  background-image: url('../public/image9.jpeg');
+}
+footer{
+  background-color: #2F3330;
+  color: white;
+}
+.flex p:nth-child(1){
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: white;
+}
+.footer-about{
+  width: 35%;
+}
+.flex .contact{
+  width: 40%;
+}
+
+@media (max-width: 600px) {
+  .logo{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    width: 40%;
+  }
+  .carsouel{
+    height: 70vh;
+    background-image: url(../public/back.jpg);
+    background-size: cover;
+  }
+  .carsouel .black{
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 70vh;
+  }
+  .carsouel div div{
+    background-color: none;
+    padding: 20px;
+    color: white;
+    width: 80%;
+  }
+  .carsouel div button{
+    background-color: #E99300;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 30px;
+    margin: 20px 0;
+    color: white;
+  }
+  .c-top{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 80vw;
+  }
+  .bold{
+    font-weight: 700;
+  }
+  .logo::first-letter{
+    color: #1F7B76;
+  }
+  .service, .provide{
+    color: gray;
+    text-align: center;
+    padding: 50px 20px; 
+  }
+  .service p:nth-child(1),.provide p:nth-child(1){
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+  }
+  .service-detail{
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  .service-card, .provide-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .service-card,.provide-card {
+    color: #1F7B76;
+    font-size: 70px;
+    padding: 30px 0px;
+  }
+  .service-card div p:nth-child(2), .provide-card div p:nth-child(2){
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+  }
+  .service-card div p:nth-child(3), .provide-card div p:nth-child(3){
+    font-size: 16px;
+    color: gray;
+  }
+  .provide{
+    background-color: #F9FAF4;
+  
+  }
+  .provide-card div{
+    padding: 10px 0;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about div {
+    padding: 20px;
+    color: gray;
+    font-size: 15px;
+  }
+  .about div:nth-child(1){
+    border-bottom: 1px solid lightgray;
+    
+  }
+  .about div p:nth-child(1){
+     font-size: 22px;
+     font-weight: 600;
+     color: black;
+     padding: 15px;
+  }
+  .choose{
+    background-color: #F9FAF4;
+    text-align: center;
+    color: gray;
+    padding: 80px 0px;
+  }
+  .choose p:nth-child(1){
+    font-size: 30px;
+    font-weight: 550;
+    color: black;
+    
+  }
+  .choose .choose-card{
+      display: flex;
+      padding: 12px;
+      flex-direction: column;
+      text-align: left;
+  }
+  .choose-card div{
+    padding: 20px;
+    color: #1F7B76;
+    font-size: 60px;
+  }
+  .choose-card div p:nth-child(2){
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+  }
+  .choose-card div p:nth-child(3){
+    font-size: 16px;
+    color: gray;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: gray;
+  }
+  .doctor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .doctor .Image{
+     width: 100%;
+  }
+  .about-doctor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 0px dotted #1F7B76;
+    border: 1px dotted #1F7B76;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .about-doctor .circle{
+    display: none;
+  }
+  .about-doctor p:nth-child(1){
+     font-size: 30px;
+     color: #1F7B76;
+  font-weight: 550;
+  }
+  .about-doctor p:nth-child(2),.about-doctor p:nth-child(3){
+    font-size: 30px;
+  
+  }
+  .image-gallery{
+    background-color: #F9FAF4;
+    
+  }
+  .image-gallery .images{
+    border: 5px solid #1F7B76;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .image-gallery .title{
+    font-size: 30px;
+    font-weight: 550;
+    color: #1F7B76;
+    background-color: #F9FAF4;
+    width: fit-content;
+    position: relative;
+    z-index: 100;
+    top: 10px;
+    margin-left: 20px;
+  
+  }
+  .image-gallery .images .image{
+    width: 40vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #1F7B76;
+    margin:14px;
+  
+  }
+  .image-gallery .images .image:nth-child(1){
+    background-image: url('../public/image1.jpeg');
+  }
+  .image-gallery .images .image:nth-child(2){
+    background-image: url('../public/image2.jpeg');
+  }
+  .image-gallery .images .image:nth-child(3){
+    background-image: url('../public/image3.jpeg');
+  }
+  .image-gallery .images .image:nth-child(4){
+    background-image: url('../public/image4.jpeg');
+  }
+  .image-gallery .images .image:nth-child(5){
+    background-image: url('../public/image5.jpeg');
+  }
+  .image-gallery .images .image:nth-child(6){
+    background-image: url('../public/image6.jpeg');
+  }
+  .image-gallery .images .image:nth-child(7){
+    background-image: url('../public/image7.jpeg');
+  }
+  .image-gallery .images .image:nth-child(8){
+    background-image: url('../public/image8.jpeg');
+  }
+  .image-gallery .images .image:nth-child(8){
+    background-image: none;
+  }
+  footer{
+    background-color: #2F3330;
+    color: white;
+  }
+  .flex p:nth-child(1){
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  .footer-about{
+    width: 45%;
+    font-size: 10px;
+  }
+  .flex .contact{
+    width: 45%;
+    font-size: 10px;
+  }
+  
 }
