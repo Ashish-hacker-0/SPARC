@@ -275,6 +275,7 @@ footer{
   .carsouel{
     height: 70vh;
     background-image: url(../public/back.jpg);
+    background-position: center;
     background-size: cover;
   }
   .carsouel .black{
@@ -403,7 +404,8 @@ footer{
   .flex{
     display: flex;
     justify-content: space-between;
-    padding: 40px 50px;
+    flex-direction: column;
+    padding: 40px 20px;
     color: gray;
   }
   .doctor{
@@ -493,7 +495,7 @@ footer{
     background-image: url('../public/image8.jpeg');
   }
   .image-gallery .images .image:nth-child(8){
-    background-image: none;
+    display: none;
   }
   footer{
     background-color: #2F3330;
@@ -501,15 +503,17 @@ footer{
   }
   .flex p:nth-child(1){
     font-size: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: white;
   }
   .footer-about{
-    width: 45%;
+    width: 100%;
+    margin-bottom: 10px;
     font-size: 10px;
   }
   .flex .contact{
-    width: 45%;
+    width: 100%;
+    margin-top: 10px;
     font-size: 10px;
   }
   
