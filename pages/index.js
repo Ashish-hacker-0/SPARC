@@ -12,13 +12,17 @@ import {HiDocumentText} from 'react-icons/hi';
 import {BsFillPersonFill} from 'react-icons/bs';
 import {BiCalendar} from 'react-icons/bi';
 import doctor from '../public/doctor.png';
-
 export default function Home() {
   return (
     <div className={styles.home}>
     <Head>
         <title>SPARC</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="SPARC is a Physiotherapy, Orthopaedic and Neuro-Research Center in Darbhnaga. Managed by Dr. Shashi Mishra, BPT(PAT) - M.U. and having 14 years of experience in this field."/>
+        <meta property="og:title" content="SPARC is a Physiotherapy, Orthopaedic and Neuro-Research Center in Darbhnaga"/>
+        <meta property="og:description" content="SPARC is a Physiotherapy, Orthopaedic and Neuro-Research Center in Darbhnaga. Managed by Dr. Shashi Mishra, BPT(PAT) - M.U. and having 14 years of experience in this field."/>
+        <meta property="og:url" content="https://sparcdbg.co.in/"/>
+        <meta property="og:type" content="website"/>
       </Head>
         <nav>
           <p className="logo">STEP PHYSIOTHERAPY AND REHAB CENTRE (SPARC)</p>

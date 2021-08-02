@@ -260,7 +260,7 @@ footer{
 }
 .footer-bottom{
   background-color: #04021D;
-  padding: 6px;
+  padding: 10px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -509,12 +509,14 @@ footer{
   .footer-about{
     width: 100%;
     margin-bottom: 10px;
-    font-size: 10px;
+    font-size: 15px;
   }
   .flex .contact{
     width: 100%;
     margin-top: 10px;
-    font-size: 10px;
+    font-size: 15px;
   }
-  
+  .flex .timing ul{
+    list-style: none;
+  }
 }
