@@ -265,6 +265,261 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 1000px) {
+  .logo{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    width: 40%;
+  }
+  .carsouel{
+    height: 70vh;
+    background-image: url(../public/back.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .carsouel .black{
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 70vh;
+  }
+  .carsouel div div{
+    background-color: none;
+    padding: 20px;
+    color: white;
+    width: 80%;
+  }
+  .carsouel div button{
+    background-color: #E99300;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 30px;
+    margin: 20px 0;
+    color: white;
+  }
+  .c-top{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 80vw;
+  }
+  .bold{
+    font-weight: 700;
+  }
+  .logo::first-letter{
+    color: #1F7B76;
+  }
+  .service, .provide{
+    color: gray;
+    text-align: center;
+    padding: 50px 20px; 
+  }
+  .service p:nth-child(1),.provide p:nth-child(1){
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+  }
+  .service-detail{
+    font-size: 18px;
+    padding: 20px 0;
+  }
+  .service-card, .provide-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .service-card,.provide-card {
+    color: #1F7B76;
+    font-size: 70px;
+    padding: 30px 0px;
+  }
+  .service-card div p:nth-child(2), .provide-card div p:nth-child(2){
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+  }
+  .service-card div p:nth-child(3), .provide-card div p:nth-child(3){
+    font-size: 16px;
+    color: gray;
+  }
+  .provide{
+    background-color: #F9FAF4;
+  
+  }
+  .provide-card div{
+    padding: 10px 0;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about div {
+    padding: 20px;
+    color: gray;
+    font-size: 15px;
+  }
+  .about div:nth-child(1){
+    border-bottom: 1px solid lightgray;
+    
+  }
+  .about div p:nth-child(1){
+     font-size: 22px;
+     font-weight: 600;
+     color: black;
+     padding: 15px;
+  }
+  .choose{
+    background-color: #F9FAF4;
+    text-align: center;
+    color: gray;
+    padding: 80px 0px;
+  }
+  .choose p:nth-child(1){
+    font-size: 30px;
+    font-weight: 550;
+    color: black;
+    
+  }
+  .choose .choose-card{
+      display: flex;
+      padding: 12px;
+      flex-direction: column;
+      text-align: left;
+  }
+  .choose-card div{
+    padding: 20px;
+    color: #1F7B76;
+    font-size: 60px;
+  }
+  .choose-card div p:nth-child(2){
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+  }
+  .choose-card div p:nth-child(3){
+    font-size: 16px;
+    color: gray;
+  }
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px 20px;
+    color: gray;
+  }
+  .doctor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .doctor .Image{
+     width: 100%;
+  }
+  .about-doctor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 0px dotted #1F7B76;
+    border: 1px dotted #1F7B76;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .about-doctor .circle{
+    display: none;
+  }
+  .about-doctor p:nth-child(1){
+     font-size: 30px;
+     color: #1F7B76;
+  font-weight: 550;
+  }
+  .about-doctor p:nth-child(2),.about-doctor p:nth-child(3){
+    font-size: 30px;
+  
+  }
+  .image-gallery{
+    background-color: #F9FAF4;
+    
+  }
+  .image-gallery .images{
+    border: 5px solid #1F7B76;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .image-gallery .title{
+    font-size: 30px;
+    font-weight: 550;
+    color: #1F7B76;
+    background-color: #F9FAF4;
+    width: fit-content;
+    position: relative;
+    z-index: 100;
+    top: 10px;
+    margin-left: 20px;
+  
+  }
+  .image-gallery .images .image{
+    width: 43vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #1F7B76;
+    margin:14px;
+  
+  }
+  .image-gallery .images .image:nth-child(1){
+    background-image: url('../public/image1.jpeg');
+  }
+  .image-gallery .images .image:nth-child(2){
+    background-image: url('../public/image2.jpeg');
+  }
+  .image-gallery .images .image:nth-child(3){
+    background-image: url('../public/image3.jpeg');
+  }
+  .image-gallery .images .image:nth-child(4){
+    background-image: url('../public/image4.jpeg');
+  }
+  .image-gallery .images .image:nth-child(5){
+    background-image: url('../public/image5.jpeg');
+  }
+  .image-gallery .images .image:nth-child(6){
+    background-image: url('../public/image6.jpeg');
+  }
+  .image-gallery .images .image:nth-child(7){
+    background-image: url('../public/image7.jpeg');
+  }
+  .image-gallery .images .image:nth-child(8){
+    background-image: url('../public/image8.jpeg');
+  }
+  .image-gallery .images .image:nth-child(8){
+    display: none;
+  }
+  footer{
+    background-color: #2F3330;
+    color: white;
+  }
+  .flex p:nth-child(1){
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .footer-about{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .flex .contact{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .flex .timing ul{
+    list-style: none;
+  }
+}
 @media (max-width: 600px) {
   .logo{
     font-size: 12px;

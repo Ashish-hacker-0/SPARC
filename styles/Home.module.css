@@ -22,10 +22,62 @@
 .home nav ul li:nth-child(2){
   color:#1F7B76;
 }
+@media (max-width: 1000px) {
+
+  .home nav{
+     display: flex;
+     justify-content: space-between;
+     padding: 5px;
+  }
+  .home nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .home nav ul li{
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .home nav ul li:nth-child(2){
+    color:#1F7B76;
+  }
+  
+  
+  
+}
 
 
 
 @media (max-width: 600px) {
+
+  .home nav{
+     display: flex;
+     justify-content: space-between;
+     padding: 5px;
+  }
+  .home nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .home nav ul li{
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .home nav ul li:nth-child(2){
+    color:#1F7B76;
+  }
+  
+  
+  
+}
+@media (max-width: 1000px) {
 
   .home nav{
      display: flex;

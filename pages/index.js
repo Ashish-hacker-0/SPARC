@@ -23,6 +23,7 @@ export default function Home() {
         <meta property="og:description" content="SPARC is a Physiotherapy, Orthopaedic and Neuro-Research Center in Darbhnaga. Managed by Dr. Shashi Mishra, BPT(PAT) - M.U. and having 14 years of experience in this field."/>
         <meta property="og:url" content="https://sparcdbg.co.in/"/>
         <meta property="og:type" content="website"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
         <nav>
           <p className="logo">STEP PHYSIOTHERAPY AND REHAB CENTRE (SPARC)</p>
