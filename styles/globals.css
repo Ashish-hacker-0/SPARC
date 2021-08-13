@@ -281,6 +281,7 @@ footer{
   .carsouel .black{
     background-color: rgba(0, 0, 0, 0.664);
     height: 70vh;
+    font-size: 40px;
   }
   .carsouel div div{
     background-color: none;
@@ -468,6 +469,7 @@ footer{
     background-size:cover;
     border: 1px solid #1F7B76;
     margin:4px;
+    background-position: center;
   
   }
   .image-gallery .images .image:nth-child(1){
