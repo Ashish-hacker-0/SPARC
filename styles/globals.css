@@ -300,7 +300,7 @@ footer{
   .c-top{
     display: block;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 55px;
     font-weight: 600;
     width: 80vw;
   }
@@ -462,12 +462,12 @@ footer{
   
   }
   .image-gallery .images .image{
-    width: 43vw;
+    width: 47.5vw;
     height: 40vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     border: 1px solid #1F7B76;
-    margin:14px;
+    margin:4px;
   
   }
   .image-gallery .images .image:nth-child(1){
