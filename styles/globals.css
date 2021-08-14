@@ -538,6 +538,8 @@ footer{
   .carsouel .black{
     background-color: rgba(0, 0, 0, 0.664);
     height: 70vh;
+    font-size: 20px;
+
   }
   .carsouel div div{
     background-color: none;
